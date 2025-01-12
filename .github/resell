@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothes Resell Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Clothes Resell</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-list">
+    <h2>Available Items</h2>
+    <div class="product">
+      <img src="shirt.jpg" alt="Shirt" class="product-image">
+      <h3>Classic T-Shirt</h3>
+      <p class="price">$25.00</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="jeans.jpg" alt="Jeans" class="product-image">
+      <h3>Blue Jeans</h3>
+      <p class="price">$40.00</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="sweater.jpg" alt="Sweater" class="product-image">
+      <h3>Cozy Sweater</h3>
+      <p class="price">$30.00</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Clothes Resell. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
